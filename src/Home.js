@@ -45,9 +45,13 @@ function Home() {
 	const [locale, setLocale] = useState("");
 
 	const addUser = () => {
-		setUsers([...users, { id, userName: userField, items: [] }]);
-		setUserField("");
-		id++;
+		if (userField !== "") {
+			setUsers([...users, { id, userName: userField, items: [] }]);
+			setUserField("");
+			id++;
+		} else {
+			alert("Username cannot be empty");
+		}
 	};
 
 	const deleteUser = (inputId) => {
