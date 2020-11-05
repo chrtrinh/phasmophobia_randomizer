@@ -1,0 +1,84 @@
+.home {
+	height: 25vh;
+	border: 1px solid #000;
+	margin: 10px;
+}
+
+.home__top {
+	display: flex;
+	height: 100%;
+}
+
+.home__top__left {
+	padding: 10px;
+	flex: 0.5;
+	border-right: 1px solid #000;
+	background-color: #999999;
+	color: #f9f9f9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.home__top__left > h4 {
+	margin-bottom: 10px;
+}
+
+.home__top__left > .MuiPaper-root {
+	height: 90%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.home__top__right {
+	flex: 0.5;
+	border-right: 1px solid #000;
+	background-color: #999999;
+	color: #f9f9f9;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.home__top__right > h4 {
+	margin-bottom: 10px;
+}
+
+.home__top__right > .MuiPaper-root {
+	height: 90%;
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.home__top__right--div {
+	padding: 10px;
+}
+
+.home__top__right > .MuiPaper-root > .MuiButton-root {
+	width: 50%;
+}
+
+.home__users {
+	width: 100%;
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.home__users > div {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.home__users > h4 {
+	margin-right: 10px;
+}
